@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:NoteScribe}",
+            "name": "Debug NoteScribe",
+            "program": "${workspaceFolder:NoteScribe}\\.build\\debug\\NoteScribe.exe",
+            "preLaunchTask": "swift: Build Debug NoteScribe"
+        },
+        {
+            "type": "lldb",
+            "request": "launch",
+            "sourceLanguages": [
+                "swift"
+            ],
+            "args": [],
+            "cwd": "${workspaceFolder:NoteScribe}",
+            "name": "Release NoteScribe",
+            "program": "${workspaceFolder:NoteScribe}\\.build\\release\\NoteScribe.exe",
+            "preLaunchTask": "swift: Build Release NoteScribe"
+        }
+    ]
+}
